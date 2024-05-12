@@ -38,3 +38,8 @@ cd ~
 chmod +x ~/tools/code-alias/more.sh
 ./tools/code-alias/more.sh
 ```
+- `e` to `exit`
+
+- `cls` to `clear`
+
+- `cdd` to `cd ~/Desktop`

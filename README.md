@@ -17,11 +17,11 @@ cd ~
 
 ## Doc
 
-- `c desk <dir>` to `code Desktop/<dir>`
+- `c de <dir>` to `code Desktop/<dir>`
 
-- `c doc <dir>` to `code Documents/<dir>`
+- `c do <dir>` to `code Documents/<dir>`
 
-- `c too <dir>` to `code tools/<dir>`
+- `c to <dir>` to `code tools/<dir>`
 
 - `c - <dir>` to `code ./<dir>`
 

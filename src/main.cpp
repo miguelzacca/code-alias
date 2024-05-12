@@ -6,13 +6,13 @@
 std::string getFullDirectory(const std::string &abbreviation)
 {
   static const std::unordered_map<std::string, std::string> directoryMap = {
-      {"desk", "Desktop"},
-      {"doc", "Documents"},
-      {"too", "tools"},
+      {"de", "Desktop"},
+      {"do", "Documents"},
+      {"to", "tools"},
       {"-", ""}};
 
   auto it = directoryMap.find(abbreviation);
-  return (it != directoryMap.end()) ? it->second : "";
+  return (it != directoryMap.end()) ? it->second : "-1";
 }
 
 int main(int argc, char *argv[])
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 
   std::string directory = getFullDirectory(argv[1]);
 
-  if (directory == "")
+  if (directory == "-1")
   {
     std::cerr << "Error: syntax error." << std::endl;
     return -1;

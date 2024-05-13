@@ -17,3 +17,9 @@ if ! grep -q "^alias cls=" ~/.bashrc; then
   source ~/.bashrc
   echo "INFO: ~/.bashrc updated successfully: (cls) alias."
 fi
+
+if ! grep -q "^alias gg=" ~/.bashrc; then
+  echo "alias gg='google-chrome & disown && exit'" >>~/.bashrc
+  source ~/.bashrc
+  echo "INFO: ~/.bashrc updated successfully: (gg) alias."
+fi

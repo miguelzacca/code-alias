@@ -43,3 +43,5 @@ chmod +x ~/tools/code-alias/more.sh
 - `cls` to `clear`
 
 - `cdd` to `cd ~/Desktop`
+
+- `gg` to `google-chrome & disown && exit`
